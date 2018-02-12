@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON Server Sample</title>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="todo in todos">
+          <input type="text" v-model="todo.title" />
+          <input type="button" value="編集" @click="update(todo)"/>
+          <input type="button" value="削除" @click="remove(todo)" />
+        </li>
+    </ul>
+    <input type="text" v-model="new_todo">
+    <input type="button" value="追加" @click="create">
+</div>
+
+<script src="https://unpkg.com/vue"></script>
+<script scr="script.js"></script>
+
+
+</body>
+</html>
