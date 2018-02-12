@@ -1,4 +1,4 @@
-# media-json-server
+# JSON ServerでつくるダミーAPI
 https://www.to-r.net/media/json-server/
 
 ## 確認方法
