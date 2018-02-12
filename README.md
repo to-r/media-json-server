@@ -3,7 +3,7 @@ https://www.to-r.net/media/json-server/
 
 ## 確認方法
 
-GitHubよりclone、  
+GitHubよりclone、  
 media-json-serverディレクトリに移動して  
 npmパッケージをインストール  
 npxコマンドで実行
