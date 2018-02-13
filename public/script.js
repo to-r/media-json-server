@@ -29,6 +29,7 @@ new Vue({
           this.todos.push({
             title: this.new_todo
           })
+          this.new_todo = ''
         })
     },
   
